@@ -158,9 +158,9 @@ const Bio = ({ isMobile }) => {
         <div style={styles.tags}>
           <Tag text="Ruby on Rails" style={styles.tag} />
           <Tag text="React / React Native" style={styles.tag} />
+          <Tag text="TypeScript" style={styles.tag} />
           <Tag text="SCSS" style={styles.tag} />
           <Tag text="MySQL / Postgres" style={styles.tag} />
-          <Tag text="GraphQL" style={styles.tag} />
           <Tag text="Redis" style={styles.tag} />
           <Tag text="Websockets" style={styles.tag} />
           <Tag text="AWS" style={styles.tag} />
