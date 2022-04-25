@@ -129,6 +129,7 @@ const BioRandom = ({ isMobile }) => {
           <Tag text="🇲🇴 Macau" style={styles.tag} />
           <Tag text="🇲🇾 Malaysia" style={styles.tag} />
           <Tag text="🇲🇹 Malta" style={styles.tag} />
+          <Tag text="🇵🇪 Peru" style={styles.tag} />
           <Tag text="🇵🇭 Philippines" style={styles.tag} />
           <Tag text="🇵🇱 Poland" style={styles.tag} />
           <Tag text="🇪🇸 Spain" style={styles.tag} />
