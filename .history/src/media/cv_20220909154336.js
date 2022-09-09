@@ -57,9 +57,9 @@ export default [
     dates: 'August 2008 - Present',
     role: 'Creator / Full-stack web developer',
     texts: [
-      'Personal project that I built for myself, that has grown a lot over the years.',
-      'Today, over 195,000 registered users. 100% organically.',
-      'Database with over 130 million rows.',
+      'Personal project that I built for myself, that has grown alot over the years.',
+      'Today, over 185,000 registered users. 100% organically.',
+      'Database with over 120 million rows.',
       'I&apos;ve done everything; project development, coding, design, and customer support. Basically learned how to build and manage a product.',
     ],
     tags: [

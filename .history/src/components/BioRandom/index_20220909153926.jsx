@@ -58,8 +58,7 @@ const BioRandom = ({ isMobile }) => {
     },
     tag: {
       margin: 2,
-      backgroundColor: '#cfcfcf',
-      color: '#333',
+      backgroundColor: '#aaa',
     },
     icon: {
       backgroundColor: '#ccc',

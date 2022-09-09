@@ -7,8 +7,8 @@ const Tag = ({ text, style, small }) => {
       fontWeight: 700,
       color: '#fff',
       backgroundColor: '#cc0178',
-      padding: small ? 7 : 9,
-      fontSize: small ? 14 : 15,
+      padding: small ? 5 : 7,
+      fontSize: small ? 12 : 15,
       borderRadius: 3,
     },
   }

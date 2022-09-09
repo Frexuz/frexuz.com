@@ -10,7 +10,4 @@ export default {
   TravClub: {
     logo: require('./logos/travclub.png'),
   },
-  React: {
-    logo: require('./logos/react.png'),
-  },
 }

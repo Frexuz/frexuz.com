@@ -38,17 +38,4 @@ export default [
       },
     ],
   },
-  {
-    name: 'React Select',
-    logo: images.React.logo,
-    tagLine: 'Open source React Select component alternative.',
-    tags: ['React', 'TypeScript', 'Webpack', 'Storybook'],
-    // eslint-disable-next-line no-script-url
-    buttons: [
-      {
-        text: 'Github Repo (Beta)',
-        href: 'https://github.com/Frexity/frx-react/tree/main/ui/react-select',
-      },
-    ],
-  },
 ]

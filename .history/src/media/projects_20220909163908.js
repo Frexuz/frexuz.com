@@ -46,8 +46,8 @@ export default [
     // eslint-disable-next-line no-script-url
     buttons: [
       {
-        text: 'Github Repo (Beta)',
-        href: 'https://github.com/Frexity/frx-react/tree/main/ui/react-select',
+        text: 'Github Repo',
+        href: 'https://travlr.landen.co/',
       },
     ],
   },

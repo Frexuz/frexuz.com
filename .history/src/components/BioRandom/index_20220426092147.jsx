@@ -58,8 +58,7 @@ const BioRandom = ({ isMobile }) => {
     },
     tag: {
       margin: 2,
-      backgroundColor: '#cfcfcf',
-      color: '#333',
+      backgroundColor: '#aaa',
     },
     icon: {
       backgroundColor: '#ccc',
@@ -109,7 +108,7 @@ const BioRandom = ({ isMobile }) => {
         <h2 style={styles.title}>I&apos;m a coder</h2>
         <h3 style={styles.text}>
           Self-taught since the age of 13. Never satisfied. Always learning.
-          Enjoy web/mobile, efficiency and tools. Doing things right.
+          Performance. Efficiency and tools. Doing things right.
         </h3>
 
         <h2 style={styles.title}>I&apos;m a traveler</h2>

@@ -10,16 +10,16 @@ export default [
   },
   {
     name: 'TravClub',
-    logo: images.TravClub.logo,
-    tagLine: 'Find travel buddies, and general travel platform.',
+    // logo: images.Flately.logo,
+    tagLine: 'Travel platform.',
     tags: [
       'Ruby on Rails',
-      'TypeScript',
-      'React',
-      'Webpack',
-      'Websockets',
+      'React Native',
       'Postgres',
       'Redis',
+      'Websockets',
+      'Live-chat',
+      'Stripe',
     ],
     // eslint-disable-next-line no-script-url
     buttons: [{ text: 'Website (Beta)', href: 'https://travclub.com' }],
@@ -35,19 +35,6 @@ export default [
       {
         text: 'Website (App not unavailable anymore)',
         href: 'https://travlr.landen.co/',
-      },
-    ],
-  },
-  {
-    name: 'React Select',
-    logo: images.React.logo,
-    tagLine: 'Open source React Select component alternative.',
-    tags: ['React', 'TypeScript', 'Webpack', 'Storybook'],
-    // eslint-disable-next-line no-script-url
-    buttons: [
-      {
-        text: 'Github Repo (Beta)',
-        href: 'https://github.com/Frexity/frx-react/tree/main/ui/react-select',
       },
     ],
   },

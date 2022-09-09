@@ -7,10 +7,10 @@ export default {
   Travlr: {
     logo: require('./logos/travlr.png'),
   },
-  TravClub: {
-    logo: require('./logos/travclub.png'),
+  Flately: {
+    logo: require('./logos/flately.png'),
   },
-  React: {
-    logo: require('./logos/react.png'),
+  Pollr: {
+    logo: require('./logos/pollr.png'),
   },
 }

@@ -8,7 +8,7 @@ const styles = {
     color: '#fff',
     backgroundColor: '#000',
     borderRadius: 5,
-    padding: '15px 20px',
+    padding: '10px 20px',
     minWidth: 80,
     textDecoration: 'none',
     justifyContent: 'center',

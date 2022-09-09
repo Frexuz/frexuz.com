@@ -115,7 +115,6 @@ class App extends Component {
               <Tag text="SVG" style={{ margin: 2 }} />
               <Tag text="Animations" style={{ margin: 2 }} />
               <Tag text="Canvas" style={{ margin: 2 }} />
-              <Tag text="React" style={{ margin: 2 }} />
             </div>
             <h3 style={styles.projectText}>
               I&apos;ve collected my favorite code experiments on codepen. Check

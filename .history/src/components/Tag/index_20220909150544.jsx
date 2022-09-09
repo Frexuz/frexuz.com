@@ -5,10 +5,10 @@ const Tag = ({ text, style, small }) => {
   const styles = {
     tag: {
       fontWeight: 700,
-      color: '#fff',
+      color: '#333',
       backgroundColor: '#cc0178',
-      padding: small ? 7 : 9,
-      fontSize: small ? 14 : 15,
+      padding: small ? 5 : 7,
+      fontSize: small ? 12 : 14,
       borderRadius: 3,
     },
   }

@@ -8,9 +8,9 @@ export default [
       'A core link between Frontend, Backend, UI/UX teams, and the product owners.      ',
       'Automating and improving our code style and workflow processes.',
       'Code re-usability between our react web and native products.',
-      'Building a cross-platform UI library with <b class="unstyled tag">Storybook</b>, with a tight integration to <b class="unstyled tag">Figma</b>, from scratch.',
+      'Building a cross-platform UI library, with tight integration to Figma, from scratch.',
       'Lots of refactoring and upgrading. Trying to minimize our dependence of 3rd party code/libraries.',
-      'Automating mobile app releases to AppStore and GooglePlay with <b class="unstyled tag">CircleCI</b>, including end-to-end tests (with <b class="unstyled tag">Detox</b>). And the same for the web with <b class="unstyled tag">Cypress</b>.',
+      'Automating mobile app releases to AppStore and GooglePlay with CircleCI, including end-to-end tests (with Detox). And the same for the web with Cypress.',
       'Interviewed 30+ frontend developers.',
     ],
     tags: [
@@ -57,9 +57,9 @@ export default [
     dates: 'August 2008 - Present',
     role: 'Creator / Full-stack web developer',
     texts: [
-      'Personal project that I built for myself, that has grown a lot over the years.',
-      'Today, over 195,000 registered users. 100% organically.',
-      'Database with over 130 million rows.',
+      'Personal project that I built for myself, that has grown alot over the years.',
+      'Today, over 185,000 registered users. 100% organically.',
+      'Database with over 120 million rows.',
       'I&apos;ve done everything; project development, coding, design, and customer support. Basically learned how to build and manage a product.',
     ],
     tags: [

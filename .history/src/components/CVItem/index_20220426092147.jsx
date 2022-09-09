@@ -108,7 +108,7 @@ class CVItem extends Component {
                   key={text}
                   text={text}
                   small
-                  style={{ margin: 2, backgroundColor: '#ccc', color: '#333' }}
+                  style={{ margin: 2, backgroundColor: '#ccc' }}
                 />
               ))}
           </div>
