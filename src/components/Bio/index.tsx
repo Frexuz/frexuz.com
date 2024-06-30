@@ -52,7 +52,7 @@ export const Bio = () => (
       }}
     >
       <div
-        className="h-full w-full rounded-full bg-cover"
+        className="h-full w-full rounded-full bg-white bg-cover"
         style={{
           backgroundImage: `url('${images.profilePicture.src}')`,
           boxShadow: '0 0 30px 5px rgba(0, 0, 0, 0.25) inset',

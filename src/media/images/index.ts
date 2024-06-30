@@ -1,4 +1,4 @@
-import profilePicture from './frexuz-profile-picture.jpg';
+import profilePicture from './frexuz-profile-picture.webp';
 import ecLogo from './logos/ec.png';
 import travlrLogo from './logos/travlr.png';
 import travclubLogo from './logos/travclub.png';
