@@ -1,13 +1,39 @@
 import { Tag } from '@/components/Tag'
 import { TCVEntry } from '@/media/cv'
 
-export const CVItem = ({ name, dates, role, texts, tags }: TCVEntry) => {
+const renderDates = (dates: string) => {
+  const dateHasPresent = dates.includes('Present')
+
+  if (dateHasPresent) {
+    return (
+      <p>
+        {dates.split(' - ')[0]} - <b className="text-green-600">Present</b>
+      </p>
+    )
+  }
+
+  return <p>{dates}</p>
+}
+
+export const CVItem = ({
+  name,
+  dates,
+  role,
+  texts,
+  tags,
+  isSideProject,
+}: TCVEntry) => {
   return (
     <div className="mt-12 p-0 sm:grid sm:grid-cols-2 sm:pb-2.5 sm:pl-0 sm:pr-0">
       <div className="mb-5 flex w-full flex-col justify-start border-b-4 border-pink-600 pb-2.5 sm:mb-0 sm:w-auto sm:items-end sm:border-b-0 sm:border-r-4 sm:pr-5">
         <h2 className="whitespace-nowrap text-4xl font-extrabold">{name}</h2>
         <h3 className="mb-1 text-xl font-bold">{role}</h3>
-        <div className="text text-gray-500">{dates}</div>
+        <div className="text text-gray-500">{renderDates(dates)}</div>
+        {isSideProject && (
+          <div className="mt-2">
+            <Tag text="Side business" small />
+          </div>
+        )}
       </div>
       <div className="flex-3 sm:ml-5">
         <ul className="list-disc pl-5 sm:-mt-2">

@@ -7,6 +7,10 @@ body {
   background: #f6f6f6;
 }
 
+b {
+  font-weight: 800;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;

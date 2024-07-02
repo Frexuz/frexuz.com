@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { Lato } from 'next/font/google'
-import Script from 'next/script' // Import Script component
+import Script from 'next/script'
 import './globals.css'
 
 const font = Lato({ weight: ['400', '700', '900'], subsets: ['latin'] })

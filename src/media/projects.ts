@@ -19,6 +19,13 @@ export const projects: TProject[] = [
     buttons: [{ text: 'Website', href: 'https://episodecalendar.com' }],
   },
   {
+    name: 'SolidImage',
+    logo: images.SolidImage.logo,
+    tagLine: 'Blurry image placeholder API for devs.',
+    tags: ['Ruby on Rails', 'RSpec', 'Postgres', 'Stripe', 'Tailwind'],
+    buttons: [{ text: 'Website', href: 'https://solidimage.dev' }],
+  },
+  {
     name: 'TravClub',
     logo: images.TravClub.logo,
     tagLine: 'Find travel buddies, and general travel platform.',
