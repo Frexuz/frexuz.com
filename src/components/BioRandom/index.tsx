@@ -76,7 +76,7 @@ export const BioRandom = () => {
           I&apos;m a traveler
         </h2>
         <h3 className="text-18 mt-4 text-center font-bold leading-7">
-          My goal is to visit 100 countries. 49 left!
+          My goal is to visit 100 countries. {100 - flags.length} left!
         </h3>
         <div className="mt-4 flex flex-wrap justify-center">
           {flags.map((country) => {
