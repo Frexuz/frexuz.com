@@ -1,5 +1,58 @@
 import { Tag } from '@/components/Tag'
 
+const flags = [
+  { flag: '🇦🇹', name: 'Austria' },
+  { flag: '🇨🇳', name: 'China' },
+  { flag: '🇨🇿', name: 'Czechia' },
+  { flag: '🇩🇰', name: 'Denmark' },
+  { flag: '🇸🇿', name: 'Eswatini' },
+  { flag: '🇪🇸', name: 'Spain' },
+  { flag: '🇫🇷', name: 'France' },
+  { flag: '🇩🇪', name: 'Germany' },
+  { flag: '🇬🇷', name: 'Greece' },
+  { flag: '🇭🇰', name: 'Hong Kong' },
+  { flag: '🇭🇷', name: 'Croatia' },
+  { flag: '🇭🇺', name: 'Hungary' },
+  { flag: '🇮🇩', name: 'Indonesia' },
+  { flag: '🇮🇹', name: 'Italy' },
+  { flag: '🇯🇵', name: 'Japan' },
+  { flag: '🇰🇪', name: 'Kenya' },
+  { flag: '🇰🇼', name: 'Kuwait' },
+  { flag: '🇰🇷', name: 'South Korea' },
+  { flag: '🇱🇮', name: 'Liechtenstein' },
+  { flag: '🇱🇰', name: 'Sri Lanka' },
+  { flag: '🇱🇸', name: 'Lesotho' },
+  { flag: '🇱🇹', name: 'Lithuania' },
+  { flag: '🇲🇴', name: 'Macau' },
+  { flag: '🇲🇹', name: 'Malta' },
+  { flag: '🇲🇺', name: 'Mauritius' },
+  { flag: '🇲🇾', name: 'Malaysia' },
+  { flag: '🇲🇦', name: 'Morocco' },
+  { flag: '🇵🇪', name: 'Peru' },
+  { flag: '🇵🇭', name: 'Philippines' },
+  { flag: '🇵🇱', name: 'Poland' },
+  { flag: '🇸🇨', name: 'Seychelles' },
+  { flag: '🇸🇬', name: 'Singapore' },
+  { flag: '🇿🇦', name: 'South Africa' },
+  { flag: '🇸🇪', name: 'Sweden' },
+  { flag: '🇨🇭', name: 'Switzerland' },
+  { flag: '🇹🇭', name: 'Thailand' },
+  { flag: '🇹🇿', name: 'Tanzania' },
+  { flag: '🇺🇸', name: 'USA' },
+  { flag: '🇻🇦', name: 'Vatican City' },
+  { flag: '🇻🇳', name: 'Vietnam' },
+  { flag: '🇬🇧', name: 'UK' },
+  { flag: '🇧🇭', name: 'Bahrain' },
+  { flag: '🇸🇦', name: 'Saudi Arabia' },
+  { flag: '🇰🇭', name: 'Cambodia' },
+  { flag: '🇮🇱', name: 'Israel' },
+  { flag: '🇯🇴', name: 'Jordan' },
+  { flag: '🇱🇦', name: 'Laos' },
+  { flag: '🇹🇼', name: 'Taiwan' },
+  { flag: '🇦🇪', name: 'United Arab Emirates' },
+  { flag: '🇵🇼', name: 'Palau' },
+].sort((a, b) => a.name.localeCompare(b.name))
+
 export const BioRandom = () => {
   return (
     <div className="flex items-center">
@@ -26,35 +79,14 @@ export const BioRandom = () => {
           My goal is to visit 100 countries. 49 left!
         </h3>
         <div className="mt-4 flex flex-wrap justify-center">
-          <Tag text="🇨🇳 China" />
-          <Tag text="🇭🇷 Croatia" />
-          <Tag text="🇩🇰 Denmark" />
-          <Tag text="🇫🇷 France" />
-          <Tag text="🇩🇪 Germany" />
-          <Tag text="🇬🇷 Greece" />
-          <Tag text="🇭🇰 Hong Kong" />
-          <Tag text="🇮🇩 Indonesia" />
-          <Tag text="🇮🇹 Italy" />
-          <Tag text="🇯🇵 Japan" />
-          <Tag text="🇰🇪 Kenya" />
-          <Tag text="🇱🇹 Lithuania" />
-          <Tag text="🇲🇴 Macau" />
-          <Tag text="🇲🇾 Malaysia" />
-          <Tag text="🇲🇹 Malta" />
-          <Tag text="🇵🇪 Peru" />
-          <Tag text="🇵🇭 Philippines" />
-          <Tag text="🇵🇱 Poland" />
-          <Tag text="🇪🇸 Spain" />
-          <Tag text="🇸🇬 Singapore" />
-          <Tag text="🇰🇷 South Korea" />
-          <Tag text="🇸🇪 Sweden" />
-          <Tag text="🇨🇭 Switzerland" />
-          <Tag text="🇹🇿 Tanzania" />
-          <Tag text="🇹🇭 Thailand" />
-          <Tag text="🇬🇧 UK" />
-          <Tag text="🇺🇸 USA" />
-          <Tag text="🇻🇦 Vatican City" />
-          <Tag text="🇻🇳 Vietnam" />
+          {flags.map((country) => {
+            return (
+              <Tag
+                text={`${country.flag} ${country.name}`}
+                key={country.name}
+              />
+            )
+          })}
         </div>
 
         <h2 className="mt-12 rounded bg-black px-2 py-1 text-center text-2xl text-white sm:text-3xl">
